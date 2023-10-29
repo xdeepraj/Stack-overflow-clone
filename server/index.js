@@ -27,8 +27,6 @@ app.use("/answer", answerRoutess);
 
 const PORT = process.env.PORT || 5000;
 
-console.log(process.env.CONNECTION_URL);
-
 const DATABASE_URL = process.env.CONNECTION_URL;
 
 mongoose
